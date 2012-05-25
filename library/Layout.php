@@ -172,7 +172,7 @@ class Layout {
 			if ($css['media']) {
 				echo ' media="'.$css['media'].'"';
 			}
-			echo ' type="'.$css['href'].'" href="'.$css['href'].'" />'."\n\r";
+			echo ' type="'.$css['type'].'" href="'.$css['href'].'" />'."\n\r";
 		}
 	}
 
